@@ -21,14 +21,14 @@ ORCID：<https://orcid.org/0009-0000-8732-3010>
 | --- | --- |
 | `contents/config.yml` | 浏览器标题、导航姓名、顶部标题和副标题、页脚文字 |
 | `contents/home.md` | 简介、邮箱、ORCID、教育经历、专业技能 |
-| `contents/publications.md` | 发表与录用论文、有条件接收论文、工作论文 |
+| `contents/publications.md` | 发表与录用论文、工作论文 |
 | `contents/experience.md` | 学术会议、助教经历、社会实践 |
 | `contents/awards.md` | 奖项与荣誉 |
 | `index.html` | 页面结构、导航、搜索摘要及页脚链接 |
 | `static/css/main.css` | 颜色、字号、间距、手机布局 |
 | `static/assets/img/background.jpeg` | 顶部背景图 |
 
-论文 “The Effects of Talent Subsidy Policies on Low-Skilled Migrant Wages: Evidence from China” 在网页中标记为 *Economic Modelling* **有条件接收（Conditional acceptance）**，已替换简历中的 R&R 状态。
+论文 “The Effects of Talent Subsidy Policies on Low-Skilled Migrant Wages: Evidence from China” 已列入“发表与录用论文”，并标记为 *Economic Modelling* **有条件接收（Conditional acceptance）**。
 
 正文以中文为主，论文标题及期刊名称保留原文。网页不展示 GitHub 个人资料链接。简历中的手机号、出生年月、籍贯未放入网页。
 
