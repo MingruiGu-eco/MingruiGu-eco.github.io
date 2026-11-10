@@ -11,7 +11,7 @@
 
 1. **顾明瑞**，郭凯明．数字技术、要素市场配置与结构转型．《经济学动态》，复审中。
 2. **Gu, Mingrui**. “The Bias of Digital Transformation: Intangible Capital, Markup, and Misallocation.” *Journal of Banking and Finance*, R&R.
-3. **Gu, Mingrui**, Ioannis Kyriakou, Nikos C. Papapostolou and Cunyi Yang. “Digital Transformation and Demand for Financial Talent: Evidence from Recruitment Data in China.” *British Journal of Management*, Under Review.
+3. **Gu, Mingrui**, Ioannis Kyriakou, Nikos C. Papapostolou and Cunyi Yang. “Digital Transformation and Demand for Financial Talent: Evidence from Recruitment Data in China.”
 4. **Gu, Mingrui**, Kaiming Guo. “Markdown and Structural Change in China.”
 5. Lian Yujun, **Mingrui Gu**. “Idle Capacity and the Informativeness of Tobin's Q.”
 6. Cui Wenhao, **Mingrui Gu**. “Echoes of the Census: Population Revisions and Corporate Financing Costs in China.”
