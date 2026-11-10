@@ -1,72 +1,52 @@
-![Github Forks](https://img.shields.io/github/forks/Yixin0313/personal-homepage-template?style=flat)
-![Github Stars](https://img.shields.io/github/stars/Yixin0313/personal-homepage-template?style=flat)
-![License](https://img.shields.io/github/license/Yixin0313/personal-homepage-template)
+# 顾明瑞的个人主页
 
-# 通用个人主页模板：适用于学术和求职场景 | A general-purpose template: suitable for both academic and professional use.
+中山大学岭南学院经济学博士研究生顾明瑞（Mingrui Gu）的个人主页。内容依据 `简历.tex` 整理，包含教育经历、研究成果、学术经历和奖项。网页已移除照片区域，保留原模板背景图。
 
-## 预览 | Preview
-[![Screenshot of the Website](https://raw.githubusercontent.com/Yixin0313/personal-homepage-template/main/screenshot_full.png)](https://yixin0313.github.io/personal-homepage-template/)
+邮箱：<gumr3@mail2.sysu.edu.cn>  
+ORCID：<https://orcid.org/0009-0000-8732-3010>
 
-## 介绍 | Introduction
+## 上传并发布到 GitHub Pages
 
-这是一个**通用的个人主页模板**，基于 [Sen Li 的学术主页模板](https://github.com/senli1073/senli1073.github.io) 进行修改。  
+1. 登录 GitHub，新建一个 **Public** 仓库。若希望网址为 `https://用户名.github.io/`，仓库命名为 `用户名.github.io`。也可以使用其他仓库名，网址将是 `https://用户名.github.io/仓库名/`。
+2. 在仓库页面选择 **Add file → Upload files**。将本目录里的 `index.html`、`contents`、`static`、`README.md`、`LICENSE` 和 `.nojekyll` 上传到仓库根目录，再提交。不要把外层的“网页”文件夹整体上传成仓库中的子文件夹。
+3. 打开 **Settings → Pages**，在 **Build and deployment** 中将 **Source** 设为 **Deploy from a branch**。
+4. 将 **Branch** 设为 `main`，目录选 `/(root)`，点击 **Save**。若仓库默认分支名不同，选择存放上述文件的分支。
+5. 等待 GitHub Pages 部署完成，在 Pages 设置中打开显示的网址。如果尚未生成，可在仓库的 **Actions** 中查看 Pages 部署状态。
 
-我新增了**工作经历板块**，使其更加适用于程序员和求职者。并且使用了中英文对照版本。
+本网页是静态站点，无须安装构建工具。所有站内资源都使用相对路径，同时兼容个人主页仓库和普通项目仓库。仓库根目录中的 `.nojekyll` 用于直接发布静态文件；若网页上传界面未显示此隐藏文件，可用 **Add file → Create new file** 创建，填入一行 `# Static site` 后提交。
 
-This is a **general-purpose personal website template**, modified from [Sen Li's academic template](https://github.com/senli1073/senli1073.github.io).  
+## 修改内容
 
-I have added a **work experience section**, making it more practical for programmers and job seekers.
+| 文件 | 内容 |
+| --- | --- |
+| `contents/config.yml` | 浏览器标题、导航姓名、顶部标题和副标题、页脚文字 |
+| `contents/home.md` | 简介、邮箱、ORCID、教育经历、专业技能 |
+| `contents/publications.md` | 发表与录用论文、有条件接收论文、工作论文 |
+| `contents/experience.md` | 学术会议、助教经历、社会实践 |
+| `contents/awards.md` | 奖项与荣誉 |
+| `index.html` | 页面结构、导航、搜索摘要及页脚链接 |
+| `static/css/main.css` | 颜色、字号、间距、手机布局 |
+| `static/assets/img/background.jpeg` | 顶部背景图 |
 
-Bilibili教程视频：【【2025最新保姆级教程】手把手教你用github制作个人主页（申学找工作必备）】https://www.bilibili.com/video/BV16nNMeFEzm?vd_source=79b688b1a191b9f9e8204aa1c3d0adab
+论文 “The Effects of Talent Subsidy Policies on Low-Skilled Migrant Wages: Evidence from China” 在网页中标记为 *Economic Modelling* **有条件接收（Conditional acceptance）**，已替换简历中的 R&R 状态。
 
-CSDN教程：https://blog.csdn.net/qq_45743991/article/details/145505150?spm=1001.2014.3001.5502
+正文以中文为主，论文标题及期刊名称保留原文。网页不展示 GitHub 个人资料链接。简历中的手机号、出生年月、籍贯未放入网页。
 
-## 快速开始 | Getting Start
-### 1. Fork 该仓库 | Fork this repository
-仓库名称应命名为 `<用户名>.github.io`，这样你的个人网站地址将是 `https://<用户名>.github.io/`。
+## 本地预览
 
-The repository name should be `<username>.github.io`, which will also be your website's URL.
+需要安装 Python。在 PowerShell 中运行以下命令，优先使用 D 盘目录，找不到时回落到 C 盘：
 
-
-### 2.  编辑页面内容 | Edit page content
-(1) 进入你想存放项目的文件夹，并克隆新的仓库 | Go to the folder where you want to store your project, and clone the new repository:
-```
-git clone https://github.com/<username>/<username>.github.io.git
-```
-项目的目录结构如下 | The directory structure is as follows:
-
-```.
-.
-├── contents
-└── static
-    ├── assets
-    │   └── img
-    ├── css
-    └── js
-```
-
-(2) 修改各个板块的内容 | Modify the content of each section, which corresponds to `contents/*.md`.
-
-(3) 调整网站设置 | Adjust the title, copyright information, and other text of the website in `contents/config.yml`
-
-(4) 替换图片 | Replace background image and photo with new ones for your web pages in `static/assets/img/`
-
-(5) 提交更改 | Push it: 
-```
-git commit -am 'init'
-git push
+```powershell
+$sitePath = 'D:\papers\Codex\简历\网页'
+if (-not (Test-Path -LiteralPath $sitePath)) {
+    $sitePath = 'C:\ShareFiles\papers\Codex\简历\网页'
+}
+Set-Location -LiteralPath $sitePath
+python -m http.server 8000 --bind 127.0.0.1
 ```
 
+在浏览器打开 <http://127.0.0.1:8000/>。结束预览时，在 PowerShell 中按 `Ctrl+C`。页面通过 JavaScript 读取 Markdown 和 YAML，需要通过本地服务器预览，直接双击 `index.html` 可能无法加载正文。
 
-### 3. 访问你的网站 | Enjoy
+## 模板来源
 
-打开浏览器，访问 https://<用户名>.github.io，即可查看你的个人主页
-
-Fire up a browser and go to `https://<username>.github.io`
-
-
-
-## License
-本项目基于 MIT 许可协议，你可以自由使用和修改此模板。 Yixin Huang 2025年2月7号
-
-Copyright Yixin Huang, 2025. Licensed under an MIT license. You can copy and mess with this template.
+页面基于 [Yixin0313/personal-homepage-template](https://github.com/Yixin0313/personal-homepage-template)，原模板改自 [Sen Li 的学术主页模板](https://github.com/senli1073/senli1073.github.io)。保留 MIT 许可证及模板来源说明。
