@@ -14,4 +14,4 @@
 3. **Gu, Mingrui**, Ioannis Kyriakou, Nikos C. Papapostolou and Cunyi Yang. “Digital Transformation and Demand for Financial Talent: Evidence from Recruitment Data in China.”
 4. **Gu, Mingrui**, Kaiming Guo. “Markdown and Structural Change in China.”
 5. Lian Yujun, **Mingrui Gu**. “Idle Capacity and the Informativeness of Tobin's Q.”
-6. Cui Wenhao, **Mingrui Gu**. “Echoes of the Census: Population Revisions and Corporate Financing Costs in China.”
+6. Cui Wenhao, **Mingrui Gu**. “Fiscal Information and the Pricing of Local Public Credit: Evidence from China's Population Census.”
