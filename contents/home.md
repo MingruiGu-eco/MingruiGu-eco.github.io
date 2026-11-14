@@ -2,7 +2,7 @@
 
 ### 联系方式
 
-- 邮箱：[gumr3@mail2.sysu.edu.cn](mailto:gumr3@mail2.sysu.edu.cn)
+- 邮箱：[gumr3@mail2.sysu.edu.cn](mailto:gumr3@mail2.sysu.edu.cn); [gumingrui3@163.com](mailto:gumingrui3@163.com)
 - ORCID：[0009-0000-8732-3010](https://orcid.org/0009-0000-8732-3010)
 
 ### 教育经历
